@@ -1,3 +1,15 @@
 body{
-  background-color:;
+  background-color:red;
+}
+
+ul{
+  float: left;
+  list-style: none;
+}
+
+nav{
+}
+
+header{
+  font-size: 41;
 }

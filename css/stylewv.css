@@ -1,0 +1,85 @@
+body{
+  background-color:;
+}
+
+li{
+  list-style: none;
+}
+
+.home_images{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:
+}
+
+nav li{
+  float: left;
+  list-style: none;
+  background-color: #2E4B86;
+  width: 70px;
+  height: 26px;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 8px;
+  position: relative;
+  left: 200px;
+  margin-left: 10px;
+}
+
+.headheading{
+  float: left;
+  padding-top: 75px;
+}
+
+.logo{
+  float: left;
+padding-top: 35px;
+}
+
+.searchbar{
+  padding-top: 85px;
+  float: right;
+  padding-right: 40px;
+}
+
+.headerimage{
+   border-bottom: : 3px solid #D6A000;
+   margin-bottom: 40px;
+}
+
+.aboutimg{
+height: 100%;
+z-index: -999;
+position: relative;
+}
+
+article .abouttext{
+  padding-bottom: 100px;
+}
+
+h1{
+  color: #2E4B86;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
