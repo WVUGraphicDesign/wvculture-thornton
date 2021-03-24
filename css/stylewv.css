@@ -13,6 +13,7 @@ li{
 
 nav li{
   float: left;
+  border-top-left-radius: 15px;
   list-style: none;
   background-color: #2E4B86;
   width: 70px;
@@ -35,6 +36,10 @@ nav li{
 padding-top: 35px;
 }
 
+.leftcolumn{
+  float: left;
+}
+
 .searchbar{
   padding-top: 85px;
   float: right;
@@ -42,8 +47,17 @@ padding-top: 35px;
 }
 
 .headerimage{
-   border-bottom: : 3px solid #D6A000;
-   margin-bottom: 40px;
+   border-bottom: 3px solid #D6A000;
+   padding-bottom: 40px;
+}
+
+.home_images{
+  padding-top: 40px;
+  border-right:
+}
+
+.home_news{
+  padding-top: 40px;
 }
 
 .aboutimg{
