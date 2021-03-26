@@ -6,16 +6,11 @@ li{
   list-style: none;
 }
 
-.home_images{
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:
-}
-
 nav li{
   float: left;
   border-top-left-radius: 15px;
   list-style: none;
-  background-color: #2E4B86;
+  background: #2E4B86;
   width: 70px;
   height: 26px;
   text-align: center;
@@ -26,9 +21,10 @@ nav li{
   margin-left: 10px;
 }
 
-.headheading{
+.headheading h1{
   float: left;
-  padding-top: 75px;
+  padding-top: 55px;
+  font-size: 41px;
 }
 
 .logo{
@@ -36,14 +32,41 @@ nav li{
 padding-top: 35px;
 }
 
+.home_images{
+
+}
+
 .leftcolumn{
   float: left;
 }
 
+.leftcolumn li{
+  margin-bottom: 32px;
+}
+
+.rightcolumn{
+    border-right: 3px solid #D6A000;
+    height: 325px;
+}
+
+.rightcolumn li{
+  margin-bottom: 32px;
+}
+
+.home_news{
+  height: 325px;
+  float:right;
+  padding-right: 40px;
+}
+
 .searchbar{
-  padding-top: 85px;
+  padding-top: 75px;
   float: right;
   padding-right: 40px;
+}
+
+.searchbar input{
+  width: 70px;
 }
 
 .headerimage{
@@ -96,4 +119,86 @@ a:active {
   color: white;
   background-color: transparent;
   text-decoration: none;
+}
+
+.searchbar{
+
+}
+
+footer {
+  position:relative;
+}
+
+footer h2 {
+position: absolute;
+top: 143px;
+color: white;
+font-size: 26px;
+text-align: right;
+left: 500px;
+}
+
+footer ul{
+position: absolute;
+top: 167px;
+float: left;
+}
+
+footer li{
+  float: left;
+}
+
+.footer_img {
+  position: relative;
+}
+
+.featured{
+margin-bottom: 53px;
+background-color: #E8E9ED;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
+.featured h2{
+font-size: 19px;
+color: #2E4B86;
+}
+
+.suffrage{
+  float: right;
+}
+
+.featuredheading{
+  background-color: #D6A000;
+  margin-bottom: 5px;
+  height: 130px;
+  position: relative;
+}
+
+.featuredheading h1{
+  font-size: 37px;
+  color: white;
+  position: absolute;
+  left: 600px;
+  padding-top: 34px;
+}
+
+.abouttext p{
+  background-color: red;
+}
+
+article h1{
+  position: absolute;
+  bottom: 544px;
+  font-size: 100px;
+  right: 178px;
+}
+
+article p{
+  position: absolute;
+  bottom: 82px;
+  font-size: 15px;
+  right: 178px;
+  color: white;
 }
